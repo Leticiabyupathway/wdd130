@@ -25,6 +25,7 @@ header {
     align-items: center;
     gap: 30px;
     background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -106,7 +107,7 @@ footer nav {
     margin-top: 15px;
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     justify-content: flex-end;
     align-items: center;

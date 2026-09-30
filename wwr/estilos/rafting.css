@@ -75,7 +75,7 @@ main {
     top: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(27, 73, 101, 0.85);
+    background-color: rgb(27 73 101 / 85%);
     color: var(--white-color);
     text-align: center;
     padding: 15px;
@@ -128,7 +128,7 @@ footer img {
     bottom: 30px;
     left: 30px;
     right: 30px;
-    background-color: rgba(27, 73, 101, 0.85);
+    background-color: rgb(27 73 101 / 85%);
     color: var(--white-color);
     padding: 20px;
 }

@@ -4,6 +4,7 @@
     --white-color: #ffffff;
     --button-color: #064b83;
     --button-hover-color: #032f52;
+    --overlay-color: #1b4965;
 }
 
 * {
@@ -75,7 +76,7 @@ main {
     top: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgb(27 73 101 / 85%);
+    background-color: var(--overlay-color);
     color: var(--white-color);
     text-align: center;
     padding: 15px;
@@ -128,7 +129,7 @@ footer img {
     bottom: 30px;
     left: 30px;
     right: 30px;
-    background-color: rgb(27 73 101 / 85%);
+    background-color: var(--overlay-color);
     color: var(--white-color);
     padding: 20px;
 }

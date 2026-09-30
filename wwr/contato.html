@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Entre em contato com a Rafting Aventura para tirar dúvidas, fazer reservas e conhecer nossos serviços.">
+    <meta name="author" content="Leticia Silva">
+    <title>Fale Conosco | Rafting Aventura</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/logo.png" alt="Logo da empresa de rafting">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Fale Conosco</h1>
+
+        <section class="informacoes-empresa">
+            <h2>Entre em contato</h2>
+
+            <p><strong>Endereço:</strong> Avenida das Aventuras, 100 - Americana, SP</p>
+            <p><strong>Telefone:</strong> (19) 3456-7890</p>
+            <p><strong>E-mail:</strong> contato@raftingaventura.com</p>
+        </section>
+
+        <div class="contato-layout">
+
+            <section class="mapa-contato">
+                <h2>Onde estamos</h2>
+
+                <iframe title="Mapa da localização da Rafting Aventura"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126963.91257692981!2d-47.37318004919236!3d-22.724025787456586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c890a71cafb7ff%3A0x53f1339f749c58bd!2sAmericana%20-%20SP!5e1!3m2!1spt-BR!2sbr!4v1790781814656!5m2!1spt-BR!2sbr"
+                  width="600" height="450" allowfullscreen loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </section>
+
+            <section class="formulario-contato">
+                <h2>Envie sua mensagem</h2>
+
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Finalidade da mensagem:</legend>
+
+                        <label>
+                            <input type="radio" name="finalidade" value="consulta" required>
+                            Consulta Geral
+                        </label>
+
+                        <label>
+                            <input type="radio" name="finalidade" value="reserva">
+                            Pergunta sobre Reserva
+                        </label>
+
+                        <label>
+                            <input type="radio" name="finalidade" value="sugestao">
+                            Sugestão de Site
+                        </label>
+                    </fieldset>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Quero receber a newsletter mensal
+                    </label>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </section>
+
+        </div>
+
+        <section class="funcionarios">
+            <h2>Conheça Nossa Equipe</h2>
+
+            <div class="equipe">
+
+                <figure>
+                    <img src="imagens/maiara-carla.png" alt="Maiara Carla, gerente de atendimento">
+                    <figcaption>
+                        <h3>Maiara Carla</h3>
+                        <p>Gerente de Atendimento</p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/carla-maraisa.png" alt="Carla Maraisa, atendente ao cliente">
+                    <figcaption>
+                        <h3>Carla Maraisa</h3>
+                        <p>Atendente ao Cliente</p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/ricelly-henrique.png"
+                      alt="Ricelly Henrique, instrutor de rafting">
+                    <figcaption>
+                        <h3>Ricelly Henrique</h3>
+                        <p>Instrutor de Rafting</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Rafting Aventura | Leticia Silva</p>
+
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/share/1axzqdRTA8/">
+                <img src="imagens/facebook.png" alt="Facebook">
+            </a>
+
+            <a href="https://www.linkedin.com/in/leticia-silva-a63b0a422/">
+                <img src="imagens/linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href="https://www.instagram.com/leticizzx?stkn=bnZjbWhrOHl3Zjhi">
+                <img src="imagens/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
